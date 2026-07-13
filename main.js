@@ -63,3 +63,42 @@ console.log(`You will turn 100 in the year ${yearTurn100}.`);
 
 console.log(`Are you an adult? ${isAdult}`);
 console.log(`Eligible to vote? ${canVote}`);
+
+// 1. Function Declaration
+function calculateArea(width, height) {
+    return width * height;
+}
+
+// 2. Function Expression
+const celsiusToFahrenheit = function(celsius) {
+    return (celsius * 9 / 5) + 32;
+};
+
+// 3. Arrow Function
+const isEven = (number) => number % 2 === 0;
+
+// 4. Arrow Function with Body
+const getInitials = (fullName) => {
+    const names = fullName.trim().split(" ");
+    let initials = "";
+
+    for (let name of names) {
+        initials += name[0].toUpperCase();
+    }
+
+    return initials;
+};
+
+// 5. Function Declaration
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
+// Test the functions
+console.log("Rectangle Area:", calculateArea(10, 5));
+console.log("25°C in Fahrenheit:", celsiusToFahrenheit(25));
+console.log("Is 18 even?", isEven(18));
+console.log("Is 13 even?", isEven(13));
+console.log("Initials:", getInitials("John Doe"));
+console.log("Initials:", getInitials("Jacob Gichira Mbuco"));
+console.log("Reversed String:", reverseString("JavaScript"));
