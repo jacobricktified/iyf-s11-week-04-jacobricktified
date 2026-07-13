@@ -175,3 +175,8 @@ console.log(getDayName(9)); // Invalid day
 for (let i = 1; i <= 100; i++) {
     console.log(i);
 }
+
+// For Loop: Print even numbers from 2 to 50
+for (let i = 2; i <= 50; i += 2) {
+    console.log(i);
+}
