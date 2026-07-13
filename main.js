@@ -208,3 +208,10 @@ for (let i = 1; i <= 5; i++) {
 
     console.log(stars);
 }
+// double all numbers
+// Array: Double all numbers in an array using map
+const numbers = [2, 4, 6, 8, 10];
+
+const doubled = numbers.map(num => num * 2);
+
+console.log(doubled);
