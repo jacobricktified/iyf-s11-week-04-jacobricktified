@@ -195,3 +195,16 @@ for (let i = 1; i <= 100; i++) {
     }
 
 }
+
+//print a triangle of stars
+//for Loop: Print a triangle of stars
+
+for (let i = 1; i <= 5; i++) {
+    let stars = "";
+
+    for (let j = 1; j <= i; j++) {
+        stars += "*";
+    }
+
+    console.log(stars);
+}
