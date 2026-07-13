@@ -215,3 +215,11 @@ const numbers = [2, 4, 6, 8, 10];
 const doubled = numbers.map(num => num * 2);
 
 console.log(doubled);
+
+//filter out negative numbers
+// Array: Filter out negative numbers from an array
+const numbers = [-10, 15, -8, 20, -5, 30];
+
+const positiveNumbers = numbers.filter(num => num >= 0);
+
+console.log(positiveNumbers);
