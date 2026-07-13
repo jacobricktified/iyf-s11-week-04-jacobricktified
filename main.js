@@ -231,3 +231,11 @@ const numbers = [2, 5, 8, 12, 20, 25];
 const firstGreaterThanTen = numbers.find(num => num > 10);
 
 console.log(firstGreaterThanTen);
+
+//calculate the product of all numbers
+// Array: Calculate the product of all numbers in an array using reduce
+const numbers = [2, 3, 4, 5];
+
+const product = numbers.reduce((total, num) => total * num, 1);
+
+console.log(product);
