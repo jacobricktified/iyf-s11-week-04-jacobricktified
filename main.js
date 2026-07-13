@@ -138,3 +138,34 @@ console.log(getGrade(84)); // B
 console.log(getGrade(76)); // C
 console.log(getGrade(61)); // D
 console.log(getGrade(45)); // F
+
+//switch statements
+// Function to get the name of the day based on the day number (0-6)
+
+
+function getDayName(dayNumber) {
+    switch (dayNumber) {
+        case 0:
+            return "Sunday";
+        case 1:
+            return "Monday";
+        case 2:
+            return "Tuesday";
+        case 3:
+            return "Wednesday";
+        case 4:
+            return "Thursday";
+        case 5:
+            return "Friday";
+        case 6:
+            return "Saturday";
+        default:
+            return "Invalid day";
+    }
+}
+
+// Test
+console.log(getDayName(0)); // Sunday
+console.log(getDayName(3)); // Wednesday
+console.log(getDayName(6)); // Saturday
+console.log(getDayName(9)); // Invalid day
