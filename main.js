@@ -116,3 +116,25 @@ console.log(calculateTip(1000));      // 150
 console.log(calculateTip(1000, 20));  // 200
 console.log(calculateTip(850));       // 127.5
 console.log(calculateTip(5000, 18));  // 900
+
+//if-else statements
+function getGrade(score) {
+    if (score >= 90) {
+        return "A";
+    } else if (score >= 80) {
+        return "B";
+    } else if (score >= 70) {
+        return "C";
+    } else if (score >= 60) {
+        return "D";
+    } else {
+        return "F";
+    }
+}
+
+// Test
+console.log(getGrade(95)); // A
+console.log(getGrade(84)); // B
+console.log(getGrade(76)); // C
+console.log(getGrade(61)); // D
+console.log(getGrade(45)); // F
