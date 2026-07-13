@@ -223,3 +223,11 @@ const numbers = [-10, 15, -8, 20, -5, 30];
 const positiveNumbers = numbers.filter(num => num >= 0);
 
 console.log(positiveNumbers);
+
+//find the first number greater than 10
+// Array: Find the first number greater than 10 in an array
+const numbers = [2, 5, 8, 12, 20, 25];
+
+const firstGreaterThanTen = numbers.find(num => num > 10);
+
+console.log(firstGreaterThanTen);
