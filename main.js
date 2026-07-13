@@ -169,3 +169,9 @@ console.log(getDayName(0)); // Sunday
 console.log(getDayName(3)); // Wednesday
 console.log(getDayName(6)); // Saturday
 console.log(getDayName(9)); // Invalid day
+
+//loops
+// For Loop: Print numbers from 1 to 100
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
