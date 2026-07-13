@@ -64,6 +64,9 @@ console.log(`You will turn 100 in the year ${yearTurn100}.`);
 console.log(`Are you an adult? ${isAdult}`);
 console.log(`Eligible to vote? ${canVote}`);
 
+//functions
+// Function Declarations, Expressions, and Arrow Functions
+
 // 1. Function Declaration
 function calculateArea(width, height) {
     return width * height;
@@ -102,3 +105,14 @@ console.log("Is 13 even?", isEven(13));
 console.log("Initials:", getInitials("John Doe"));
 console.log("Initials:", getInitials("Jacob Gichira Mbuco"));
 console.log("Reversed String:", reverseString("JavaScript"));
+
+// Function with a default parameter
+function calculateTip(bill, tipPercent = 15) {
+    return (bill * tipPercent) / 100;
+}
+
+// Test the function
+console.log(calculateTip(1000));      // 150
+console.log(calculateTip(1000, 20));  // 200
+console.log(calculateTip(850));       // 127.5
+console.log(calculateTip(5000, 18));  // 900
