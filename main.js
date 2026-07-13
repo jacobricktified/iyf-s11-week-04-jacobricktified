@@ -31,3 +31,35 @@ console.log("My age is:", myAge);
 console.log("Am I a student?", isStudent);
 console.log("My favorite colors are:", favoriteColors);
 console.log("Today's date is:", today);
+
+
+//Data Types & Operators
+
+// User information
+const name = "Jacob";
+const age = 30; // Your current age
+
+// Current year
+const currentYear = new Date().getFullYear();
+
+// Number operations
+const ageInDays = age * 365;
+const ageInHours = ageInDays * 24;
+const yearTurn100 = currentYear + (100 - age);
+
+// Comparison operator
+const isAdult = age >= 18;
+
+// Logical operator
+const canVote = isAdult && age < 100;
+
+// String operations (concatenation)
+console.log("Hello, " + name + "!");
+
+// String operations (template literals)
+console.log(`You are approximately ${ageInDays} days old.`);
+console.log(`You are approximately ${ageInHours} hours old.`);
+console.log(`You will turn 100 in the year ${yearTurn100}.`);
+
+console.log(`Are you an adult? ${isAdult}`);
+console.log(`Eligible to vote? ${canVote}`);
